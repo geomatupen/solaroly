@@ -61,12 +61,12 @@ The approach combines computer vision, geospatial data processing, and model tra
 ## Setup Instructions
 
 1. Clone the repository:
-   git clone https://github.com/your-username/solar-anomaly-detection.git
-   cd solar-anomaly-detection
+   git clone https://github.com/geomatupen/solaroly.git
+   cd solaroly
 
 2. Create and activate the environment:
    conda env create -f environment.yml
-   conda activate solar_anomaly_env
+   conda activate thermal-detector
 
 3. Run training or inference using the notebook or scripts.
 
@@ -80,7 +80,16 @@ To train the model on your own dataset:
 
   python train_model.py
 
-Trained weights will be saved to the `output/` directory.
+Trained weights will be saved to the `training_data/output/` directory.
+
+## Inference
+
+To run inference using the trained model:
+
+- Make sure your trained weights (model_final.pth) are saved under output/.
+- Place your orthophoto or test tiles inside a folder (e.g., ortho/).
+- Update paths inside inference.py if needed (e.g., tiles_info, predictor setup, output folder).
+- Run the script
 
 ## Output Files
 
