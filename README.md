@@ -61,14 +61,16 @@ The approach combines computer vision, geospatial data processing, and model tra
 ## Setup Instructions
 
 1. Clone the repository:
+```
    git clone https://github.com/geomatupen/solaroly.git
    cd solaroly
-
-2. Create and activate the environment:
+```
+3. Create and activate the environment:
+```
    conda env create -f environment.yml
    conda activate thermal-detector
-
-3. Run training or inference using the notebook or scripts.
+```
+5. Run training or inference using the notebook or scripts.
 
 ## Training
 
@@ -77,9 +79,9 @@ To train the model on your own dataset:
 - Prepare annotations in COCO format.
 - Update paths in `train_model.py`.
 - Run:
-
+```
   python train_model.py
-
+```
 Trained weights will be saved to the `training_data/output/` directory.
 
 ## Inference
@@ -111,9 +113,9 @@ To run inference using the trained model:
 - tqdm
 
 Install all dependencies with:
-
+```
    conda env create -f environment.yml
-
+```
 ## License
 
 This project is licensed under the GNU GENERAL PUBLIC LICENSE.
