@@ -33,7 +33,7 @@ The approach combines computer vision, geospatial data processing, and model tra
 7. Generate a summary of anomalies per solar panel
 
 ## Project Structure
-
+```
 ├── ortho/ # Input orthophoto
 ├── solar_polygon/ # Solar panel GeoJSON polygons
 ├── outputs/ # Model outputs: predictions and GeoJSONs
@@ -55,7 +55,7 @@ The approach combines computer vision, geospatial data processing, and model tra
 ├── test.ipynb # Jupyter Notebook for inference and export
 ├── train_model.py # Training script
 ├── environment.yml # Conda environment definition
-
+```
 
 
 ## Setup Instructions
