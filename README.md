@@ -1,4 +1,4 @@
-# Solar Panel Anomaly Detection Using Detectron2
+# Solar PV Panel Anomaly Detection Using Detectron2
 
 ## About the Project
 
