@@ -2,6 +2,7 @@
 training_data/data/
 training_data/mmyolo/
 training_data/output/
+training_data/Th_G_v9.pt
 outputs/
 ortho/
 rough/
