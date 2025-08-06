@@ -122,5 +122,6 @@ This project is licensed under the GNU GENERAL PUBLIC LICENSE.
 
 ## Acknowledgements
 - Special thanks to Termatics, Austria for providing the opportunity and support to develop this project.
+- Thermal Solar PV Anomaly Detection Dataset, by Parisa Kumari Darabi, DOI: 10.13140/RG.2.2.12595.54564
 
 Developed by Upendra Oli.
