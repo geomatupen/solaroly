@@ -1,5 +1,9 @@
 **/.ipynb_checkpoints/
 training_data/
+training_data/data/
+training_data/mmyolo/
+training_data/outputs/
 outputs/
 ortho/
 rough/
+
